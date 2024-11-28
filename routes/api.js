@@ -30,7 +30,7 @@ app.use(
     secret: "secret-key",
     resave: false,
     saveUninitialized: true,
-    cookie: { secure: false }, // Ubah ke true jika menggunakan HTTPS
+    cookie: { secure: true }, // Ubah ke true jika menggunakan HTTPS
   })
 );
 
